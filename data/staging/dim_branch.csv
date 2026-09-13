@@ -1,0 +1,16 @@
+branch_sk,branch_id,branch_name,city,province
+1,BR001,Winnipeg Branch 1,Winnipeg,MB
+2,BR002,Mississauga Branch 2,Mississauga,ON
+3,BR003,Toronto Branch 3,Toronto,ON
+4,BR004,Halifax Branch 4,Halifax,NS
+5,BR005,Vancouver Branch 5,Vancouver,BC
+6,BR006,Hamilton Branch 6,Hamilton,ON
+7,BR007,Hamilton Branch 7,Hamilton,ON
+8,BR008,Ottawa Branch 8,Ottawa,ON
+9,BR009,Halifax Branch 9,Halifax,NS
+10,BR010,Mississauga Branch 10,Mississauga,ON
+11,BR011,Winnipeg Branch 11,Winnipeg,MB
+12,BR012,Halifax Branch 12,Halifax,NS
+13,BR013,Montreal Branch 13,Montreal,QC
+14,BR014,Mississauga Branch 14,Mississauga,ON
+15,BR015,Quebec City Branch 15,Quebec City,QC

@@ -1,0 +1,12 @@
+check_name,table,passed,detail
+dedup_exact_rows,customers,True,dropped 22 exact duplicate rows
+null_city_handling,customers,True,"59 missing cities set to 'Unknown' (row kept, not dropped)"
+scd2_build,dim_customer,True,built 2216 SCD2 rows for 2000 unique customers
+scd2_one_current_per_customer,dim_customer,True,2000 current rows vs 2000 unique customers
+fk_integrity_account_customer,dim_account,True,0 accounts reference a customer_id not in dim_customer
+dim_date_build,dim_date,True,built 1096 calendar day rows from 2023-01-01 to 2025-12-31
+fk_integrity_txn_account,fact_transactions,True,"123 rows (0.205%) had orphan account_id -> routed to quarantine, not dropped"
+row_count_reconciliation,fact_transactions,True,"raw=60000, clean=59877, quarantined=123"
+fact_transactions_build,fact_transactions,True,built 59877 fact rows with surrogate keys joined in
+fk_integrity_loan_customer,fact_loan_applications,True,0 loan applications reference unknown customer_id
+fact_loans_build,fact_loan_applications,True,built 1500 fact rows with surrogate keys joined in

@@ -1,0 +1,9 @@
+product_id,product_name,product_category
+PRD001,Everyday Chequing,deposit
+PRD002,High-Interest Savings,deposit
+PRD003,Cashback Credit Card,card
+PRD004,Travel Rewards Credit Card,card
+PRD005,Personal Line of Credit,loan
+PRD006,Auto Loan,loan
+PRD007,Mortgage - Fixed,loan
+PRD008,Mortgage - Variable,loan
