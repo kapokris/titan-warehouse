@@ -13,8 +13,13 @@ with open(DDL_PATH) as f:
 print(f"Database created/connected at: {DB_PATH}")
 print("Schema (tables) created from DDL.")
 tables = [
-    "dim_customer", "dim_branch", "dim_product", "dim_account", "dim_date",
-    "fact_transactions", "fact_loan_applications",
+    "dim_customer",
+    "dim_branch",
+    "dim_product",
+    "dim_account",
+    "dim_date",
+    "fact_transactions",
+    "fact_loan_applications",
 ]
 
 print("=== Loading staging tables into warehouse ===")

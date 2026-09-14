@@ -12,3 +12,7 @@ Thumbs.db
 # Power BI temp/lock files (not the actual .pbix, just temp junk it sometimes creates)
 *.pbix.lock
 ~$*.pbix
+airflow/*
+!airflow/dags/
+!airflow/dags/titan_pipeline.py
+airflow_venv/
