@@ -198,4 +198,4 @@ The Power BI dashboard (`dashboards/titan_dashboard.pbix`) includes:
 
 ## Author
 
-Krishna — Honours Bachelor of Computer Science, Data Analytics Concentration, Sheridan College. Built as a portfolio project for Canadian banking data engineering/analytics internships.
+Krishna — Honours Bachelor of Computer Science, Data Analytics Concentration, Sheridan College. 
