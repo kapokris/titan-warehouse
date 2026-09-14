@@ -1,0 +1,32 @@
+name: Titan Warehouse Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run data generation
+        run: python scripts/01_generate_data.py
+
+      - name: Run ETL transform
+        run: python scripts/02_transform.py
+
+      - name: Load warehouse
+        run: python scripts/03_load_warehouse.py
