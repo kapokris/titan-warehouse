@@ -2,7 +2,6 @@
 
 An end-to-end retail & banking analytics data warehouse — built from raw synthetic data through ETL, a star-schema warehouse, SQL analytics, a BI dashboard, containerization, CI/CD, orchestration, and a cloud data platform.
 
-Built as a portfolio project targeting Data Engineering / Data Analytics internships at Canadian banks (RBC, CIBC, BMO, Scotiabank).
 
 ---
 
